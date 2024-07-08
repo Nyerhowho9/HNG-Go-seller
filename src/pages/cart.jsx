@@ -2,12 +2,13 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/FooterP';
 
-const cart = () => {
+const Cart = () => {
   return (
     <div>
-      <h1>Cart</h1>
+        <Navbar /> 
+        <Footer />   
     </div>
   )
 }
 
-export default cart;
+export default Cart;
