@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/FooterP';
+import Navbar from '../CartCard.css/Navbar';
+import Footer from '../CartCard.css/FooterP';
 
 const Cart = () => {
   return (

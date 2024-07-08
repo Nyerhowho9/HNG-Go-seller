@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Footer from '../components/FooterP';
-import Products from '../components/Products';
+import Navbar from '../CartCard.css/Navbar';
+import Hero from '../CartCard.css/Hero';
+import Footer from '../CartCard.css/FooterP';
+import Products from '../CartCard.css/Products';
+import ProductCard from '../CartCard.css/ProductCard';
 
 function Home() {
   return (
