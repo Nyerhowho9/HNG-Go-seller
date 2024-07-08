@@ -40,7 +40,7 @@
 }
 .contact{
     padding-top: 15px;
-    width: 70%;
+    width: 90%;
     margin: auto;
 
 }
@@ -55,8 +55,14 @@
 }
 .contact > p{
     color: var(--purple);
+    text-align: center;    
+
 }
 
+
+
+
+/* Big screen responsive styling*/
 @media only screen and (min-width: 992px) {
     .footer{
         display: flex;
