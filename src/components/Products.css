@@ -1,0 +1,12 @@
+:root{
+    --cream: #FDFAD4;
+    --purple: #8F99FB;
+    --peach: #F88379;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #7A7979;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}

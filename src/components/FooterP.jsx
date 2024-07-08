@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import Logo from '../assets/images/go-seller-logo.png';
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='footer-container'>
         <div className='footer'>
@@ -23,4 +23,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
