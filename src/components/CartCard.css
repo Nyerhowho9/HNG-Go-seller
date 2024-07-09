@@ -118,6 +118,7 @@
 .description>p, .color>p, .size>p{
     font-size: 18px;
     font-weight: 400;
+    text-align: left;
 }
 
 
@@ -125,6 +126,7 @@
 .reviews-container{
     width: 80%;
     margin: auto;
+    padding-bottom: 20px;
     
 }
 .review-wrapper{
@@ -145,7 +147,6 @@
 
 }
 .stars{
-    border: 2px solid black;
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -165,18 +166,28 @@ height: 30px;
     padding-top: 70px;
     
 }
+
+
 .orderp{
     font-size: 18px;
     font-weight: 600;
     padding-top: 30px;
 }
+.orderp >p{
+    text-align: left;
+
+}
 .total{
     text-align: center;
     padding-top: 20px;
+
 }
+
 .total> p{
     font-size: 18px;
     font-weight: 600;
+
+
 }
 
 
@@ -232,11 +243,18 @@ height: 30px;
         padding-top: 1px;
     }
     .total{
-        text-align: center;
         padding-top:3px;
+        width: 20%;
+
+    }
+    .total>h3{
+        text-align: left;
+    
     }
     .total>p{
         padding-top:5px;
+        padding-right: 5px;
+
 
     }
 }

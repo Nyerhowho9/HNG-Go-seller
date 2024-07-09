@@ -15,7 +15,7 @@ const ProductCard = (props) => {
 
   return (
     <>  
-        <li className='product'>
+        <div className='product'>
                 <Link className='product-link' to={props.path}>
                     <figure className='product-pic-wrap'>
                         <img src={props.src} alt={props.imgAlt}  className='product-img'/>
@@ -35,7 +35,7 @@ const ProductCard = (props) => {
                     <button onClick={handleClick} className='clear-button'>Clear</button>
                     
                 </div>
-            </li>
+            </div>
         
             
     </>

@@ -22,9 +22,12 @@ import Prod15 from '../assets/images/product-15.png';
 const Products = () => {
   return (
     <div className='product-container'>
-        <h2 className='products-heading'>New Arrivals</h2>
+        <div className='wrapper'>
+            <h2 className='products-heading'>New Arrivals</h2>
+
+        </div>
         <div className='cards-container'>
-            <ul>
+            <div  className='ulist'>
                 <ProductCard
                     src={Prod1}
                     imgAlt='Brown Shirt'
@@ -62,6 +65,8 @@ const Products = () => {
                     price = {25000}
                     path='/cart'
                 />
+            </div >
+            <div  className='ulist'>
                 <ProductCard
                     src={Prod6}
                     imgAlt='Brown Shirt'
@@ -97,6 +102,8 @@ const Products = () => {
                     price = {25000}
                     path='/cart'
                 />
+            </div >
+            <div className='ulist'>
                 <ProductCard
                     src={Prod11}
                     imgAlt='Brown Shirt'
@@ -133,7 +140,7 @@ const Products = () => {
                     price = {25000}
                     path='/cart'
                 />
-            </ul>
+            </div >
         </div>      
     </div>
   )
