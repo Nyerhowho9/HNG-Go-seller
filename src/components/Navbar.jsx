@@ -4,7 +4,7 @@ import Logo from '../assets/images/go-seller-logo.png';
 import CartIcon from '../assets/images/cart-logo.png';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className='nav-container'>
       <div className='nav'>
@@ -17,7 +17,7 @@ const Navbar = () => {
           
         </div>
         <div className='right-side'>
-          <p className='new-arivals'>New Arrivals</p>
+          <p className='new-arivals'>{props.title}</p>
           <Link to="/cart">
           <div className='cart'>
             <img src={CartIcon} alt="Cart icon" className='cartIcon'/>

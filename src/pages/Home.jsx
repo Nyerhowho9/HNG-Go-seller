@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../CartCard.css/Navbar';
-import Hero from '../CartCard.css/Hero';
-import Footer from '../CartCard.css/FooterP';
-import Products from '../CartCard.css/Products';
-import ProductCard from '../CartCard.css/ProductCard';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Footer from '../components/FooterP';
+import Products from '../components/Products';
 
 function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar
+      title='New Arrivals' />
       <Hero />
       <Products/>
       <Footer />

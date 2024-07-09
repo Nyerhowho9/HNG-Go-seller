@@ -27,10 +27,10 @@ const ProductCard = (props) => {
                     </div>
                 <div className='addCart-container'>
                     <div className='carti'>
-                        <img src={CartIcon} alt="Cart icon" className='cartIcon'/>
+                        <Link to={props.path}><img src={CartIcon} alt="Cart icon" className='cartIcon'/></Link>
                     </div>
                     <div className='count'> 
-                        <p><span>-</span> {quantity} <span>+</span></p>
+                        <Link to={props.path} style={{ textDecoration: 'none', color: 'black'}}><p><span>-</span> {quantity} <span>+</span></p></Link>
                     </div>
                     <button onClick={handleClick} className='clear-button'>Clear</button>
                     
