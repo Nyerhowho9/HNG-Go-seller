@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import Cart from './pages/cart';
 import Checkout from './pages/Checkout';
 import CartReview from './pages/CartReview';
-import Pay from './pages/Pay';
+import Pays from './pages/Pays';
+import Success from './pages/Success';
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/cartreview" element={<CartReview />} />
-        <Route path="/pay" element={<Pay />} />
+        <Route path="/pay" element={<Pays />} />
+        <Route path="/success" element={<Success />} />
+
 
       </Routes>
     </div>

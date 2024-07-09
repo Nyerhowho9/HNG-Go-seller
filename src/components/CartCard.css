@@ -120,6 +120,40 @@
     font-weight: 400;
 }
 
+
+/* Cart Reviewcomponent styling*/
+.reviews-container{
+    width: 80%;
+    margin: auto;
+    
+}
+.review-wrapper{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.rev-details{
+    padding-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.rev-details >p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.stars{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.stars > img{
+height: 30px;
+}
+
 /*Checkout component styling*/
 .checkout-container{
     background-color: var(--cream);
@@ -144,6 +178,9 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+
+
 @media only screen and (min-width: 768px) {
     .cart-image-container{
         width: 50%;

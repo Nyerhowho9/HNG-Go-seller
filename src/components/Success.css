@@ -1,0 +1,40 @@
+:root{
+    --cream: #FDFAD4;
+    --purple: #8F99FB;
+    --peach: #F88379;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #7A7979;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.success-container{
+    background-color: var(--cream);
+    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.success-wrapper{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.success-img{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+p{
+    text-align: center;
+}

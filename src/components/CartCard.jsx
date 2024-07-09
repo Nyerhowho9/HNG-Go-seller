@@ -37,10 +37,10 @@ alert('Item deleted')
         <div className='deets'>
           <div className='cart-description'>
             <div className='detail'>
-              <Link style={{ textDecoration: 'none' }}><h5 className='details-headng'>Product Details</h5></Link>
+              <Link to='/cart' style={{ textDecoration: 'none' }}><h5 className='details-headng'>Product Details</h5></Link>
             </div>
             <div className='review'>
-              <Link style={{ textDecoration: 'none' }}><h5 className='reviews-heading'>Reviews</h5></Link>
+              <Link to='/cartreview' style={{ textDecoration: 'none' }}><h5 className='reviews-heading'>Reviews</h5></Link>
             </div>
           </div>
           <div className='details-contaner'>

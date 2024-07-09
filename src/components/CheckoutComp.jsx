@@ -5,6 +5,7 @@ import Bin from '../assets/images/bin.png'
 import './CartCard.css';
 import ShippingForm from './ShippingForm';
 import CheckoutButton from './CheckoutButton';
+import { Link } from 'react-router-dom';
 
 const CheckoutComp = () => {
     function handleClick(){
@@ -27,7 +28,7 @@ const CheckoutComp = () => {
                     <p>Color: Pink</p>
                 </div>
                 <div className='quantity'>
-                    <p>Quantity: - 1 + <span><img src={Bin} alt="trash icon" className='trash' onClick={handleClick}/></span></p>
+                    <p>Quantity:   <Link to='/cart' style={{ textDecoration: 'none', color: 'black' }}>- 1 + </Link> <span><img src={Bin} alt="trash icon" className='trash' onClick={handleClick}/></span></p>
                 </div>
             </div>
               

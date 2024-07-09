@@ -5,6 +5,11 @@ import Prod1 from '../assets/images/product-1.png';
 import Bin from '../assets/images/bin.png';
 import CheckoutButton from './CheckoutButton';
 import { Link } from 'react-router-dom';
+import Rev1 from '../assets/images/reviewer1.png';
+import Rev2 from '../assets/images/reviewer2.png';
+import Rev3 from '../assets/images/reviewer3.png';
+import Blackstar from '../assets/images/star.png';
+import Greystar from '../assets/images/grey-star.png'; 
 
 const CartReviewComp = () => {function handleClick(){
     alert('Item deleted')
@@ -36,37 +41,68 @@ const CartReviewComp = () => {function handleClick(){
             <div className='deets'>
               <div className='cart-description'>
                 <div className='detail' style={{ backgroundColor:'#FDFAD4' }}>
-                  <Link style={{ textDecoration: 'none' }}><h5 className='details-headng'>Product Details</h5></Link>
+                  <Link to='/cart' style={{ textDecoration: 'none', color: '#7A7979' }}><h5 className='details-headng' style={{  color: '#7A7979' }}>Product Details</h5></Link>
                 </div>
                 <div className='review' style={{ backgroundColor:'#F88379' }}>
-                  <Link style={{ textDecoration: 'none' }}><h5 className='reviews-heading'>Reviews</h5></Link>
+                  <Link to='/cartreview' style={{ textDecoration: 'none' }}><h5 className='reviews-heading'  style={{  color: 'black' }}>Reviews</h5></Link>
                 </div>
               </div>
-              <div className='details-contaner'>
-                <div className='description'>
-                  <h6>Description</h6>
-                  <p>Resolute tee  shirt is a classic crewneck with relaxed, comfortable shoulder The material are of 52% Cotton,
-                    48% Polyester blend for softness and durability.
-                  </p>
+              <div className='reviews-container'>
+                <div className='review-wrapper'>
+                  <div className='reviewer'>
+                    <img src={Rev1} alt="a lady" />
+                  </div>
+                  <div className='rev-details'>
+                    <h4>Uduak E</h4>
+                    <p>The Product is not so good as it looks here, buying at your risk</p>
+                    <div className='stars'>
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Greystar} alt="" />
+                      <img src={Greystar} alt="" />
+                      <img src={Greystar} alt="" />
+
+                    </div>
+
+                  </div>
                 </div>
-                <div className='color'>
-                  <h6>Colors</h6>
-                  <p>Pink 
-                    <br />
-                    Black
-                    <br /> 
-                    White 
-                   </p>            
+                <div className='review-wrapper'>
+                  <div className='reviewer'>
+                    <img src={Rev2} alt="a man" />
+                  </div>
+                  <div className='rev-details'>
+                    <h4>Uduak E</h4>
+                    <p>I love this Product so much</p>
+                    <div className='stars'>
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+
+                    </div>
+
+                  </div>
                 </div>
-                <div className='size'>
-                  <h6>Size</h6>
-                  <p>M 
-                    <br />
-                    XL
-                    <br /> 
-                    XXL 
-                   </p>            
+                <div className='review-wrapper'>
+                  <div className='reviewer'>
+                    <img src={Rev3} alt="a man" />
+                  </div>
+                  <div className='rev-details'>
+                    <h4>Uduak E</h4>
+                    <p>I love the  quality, i will still buy this product again.</p>
+                    <div className='stars'>
+                      <img src={Blackstar} alt="" c/>
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Blackstar} alt="" />
+                      <img src={Greystar} alt="" />
+
+                    </div>
+
+                  </div>
                 </div>
+                
               </div>
             </div>
         </div>
