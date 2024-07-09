@@ -1,6 +1,4 @@
-import React from 'react';
-import './Products.css';
-import ProductCard from './ProductCard';
+import React from 'react'
 import Prod1 from '../assets/images/product-1.png';
 import Prod2 from '../assets/images/ product-2.png';
 import Prod3 from '../assets/images/product-3.png';
@@ -16,13 +14,14 @@ import Prod12 from '../assets/images/product-12.png';
 import Prod13 from '../assets/images/product-13.png';
 import Prod14 from '../assets/images/product-14.png';
 import Prod15 from '../assets/images/product-15.png';
-import './Play.css';
 import Play from './Play';
+import Navbar from './Navbar';
+import Footer from './FooterP';
+import Hero from './Hero';
 
-
-
-const Products = () => {
+const Playa = () => {
   return (
+    
     <div >
 
         <div className='main'>
@@ -145,4 +144,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default Playa

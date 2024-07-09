@@ -34,7 +34,7 @@ const CartReviewComp = () => {function handleClick(){
                 <p>Quantity: - 1 + <span><img src={Bin} alt="trash icon" className='trash' onClick={handleClick}/></span></p>
               </div>
               <CheckoutButton
-              names='Checkout'
+              names='Checkout Here'
               path='/checkout'
               />   
             </div>
