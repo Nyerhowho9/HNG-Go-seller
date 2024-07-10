@@ -16,8 +16,8 @@ const Play = (props) => {
 
   return (
     <div className='main'>
-        
-        <div>
+    
+        <div >
             <div className='white'>
                 <Link to={props.path}>
                 <div className='img-cont'>

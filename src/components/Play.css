@@ -36,7 +36,7 @@
 
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .img-cont >img{
     width: 100%;
@@ -45,12 +45,14 @@
 .prod-desc{
     width: 80%;
     margin: auto;
-    
+    padding-top: 20px;
 
 }
+
 .prod-desc>h4{
     text-align: center;
-    
+    font-weight: 600;
+    font-size: 18px;
 
 }
 .add-cart{
@@ -68,24 +70,50 @@
     padding-left: 6px;
     margin-top: 5px;
 }
+.counter{
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 600px) {
+    .white{
+        width:50%;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .white{
+        width:30%;
+  
+    }
+}
 @media only screen and (min-width: 992px) {
+
     .white{
         width:100%;
         margin: auto;
         border-radius: 20px;
     }
+
    
     .head> h3{
         text-align: left;
+        margin-left: 90px;
         
     }
     .lister{
         display: flex;
-        width: 80%;
+        width:100%;
         margin: auto;
         justify-content: space-evenly;
     }
-    .counter{
-        padding-top: 5px;
+
+    .prod-desc>h4{
+        font-weight: 600;
+        font-size: 16px;
+    
     }
+
 }

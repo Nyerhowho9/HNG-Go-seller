@@ -16,6 +16,7 @@ import Prod12 from '../assets/images/product-12.png';
 import Prod13 from '../assets/images/product-13.png';
 import Prod14 from '../assets/images/product-14.png';
 import Prod15 from '../assets/images/product-15.png';
+import Prod16 from '../assets/images/Prod16.png';
 import './Play.css';
 import Play from './Play';
 
@@ -29,6 +30,7 @@ const Products = () => {
         <div className='head'>
             <h3>New Arrivals</h3>
         </div>
+        <div className='white-cont'>
         <div className='lister'>
             <Play
             src={Prod1}
@@ -40,29 +42,29 @@ const Products = () => {
             <Play
             src={Prod2}
             imgAlt='Brown Shirt'
-            name='Resolute Tee Shirt'
-            price = {25000}
+            name='Trucker hats'
+            price = {10000}
             path='/cart'
             />
             <Play
             src={Prod3}
             imgAlt='Brown Shirt'
-            name='Resolute Tee Shirt'
-            price = {25000}
+            name='Leather jackets'
+            price = {40000}
             path='/cart'
             />
             <Play
             src={Prod4}
             imgAlt='Brown Shirt'
-            name='Resolute Tee Shirt'
-            price = {25000}
+            name='Two pieces tee '
+            price = {35000}
             path='/cart'
             />
             <Play
             src={Prod5}
             imgAlt='Brown Shirt'
-            name='Resolute Tee Shirt'
-            price = {25000}
+            name='Unisex armless '
+            price = {40000}
             path='/cart'
             />
         </div>
@@ -70,36 +72,36 @@ const Products = () => {
         <Play
         src={Prod6}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Bucket hat'
+        price = {15000}
         path='/cart'
         />
         <Play
         src={Prod7}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Snake skin jacket'
+        price = {80000}
         path='/cart'
         />
         <Play
         src={Prod8}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Unisex Turtle neck'
+        price = {40000}
         path='/cart'
         />
         <Play
         src={Prod9}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Cargo short'
+        price = {20000}
         path='/cart'
         />
         <Play
         src={Prod10}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Two piece crop top'
+        price = {30000}
         path='/cart'
         />
         </div>
@@ -107,39 +109,78 @@ const Products = () => {
         <Play
         src={Prod11}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Stitched jacket'
+        price = {35000}
         path='/cart'
         />
         <Play
         src={Prod12}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Purple hoodie'
+        price = {30000}
         path='/cart'
         />
         <Play
         src={Prod13}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Unisex jort'
+        price = {20000}
         path='/cart'
         />
         <Play
         src={Prod14}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Hoodie & joggers '
+        price = {35000}
         path='/cart'
         />
         <Play
         src={Prod15}
         imgAlt='Brown Shirt'
-        name='Resolute Tee Shirt'
-        price = {25000}
+        name='Unisex Tee '
+        price = {40000}
         path='/cart'
         />
         </div>
+        <div className='lister'>
+        <Play
+        src={Prod16}
+        imgAlt='Brown Shirt'
+        name='Resolute  polo'
+        price = {35000}
+        path='/cart'
+        />
+        <Play
+        src={Prod12}
+        imgAlt='Brown Shirt'
+        name='Camo cargo'
+        price = {30000}
+        path='/cart'
+        />
+        <Play
+        src={Prod15}
+        imgAlt='Brown Shirt'
+        name='Female short'
+        price = {20000}
+        path='/cart'
+        />
+        <Play
+        src={Prod6}
+        imgAlt='Brown Shirt'
+        name='Hats'
+        price = {35000}
+        path='/cart'
+        />
+        <Play
+        src={Prod4}
+        imgAlt='Brown Shirt'
+        name='Unisex Tee '
+        price = {40000}
+        path='/cart'
+        />
+        </div>
+        </div>
+
         </div>
     </div>
   )
